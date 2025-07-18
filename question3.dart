@@ -7,7 +7,7 @@ and print percentage of class attended.
 Is student is allowed to sit in exam or not?
    */
   double ClassesHeld = 16, ClasssesAttended = 10, Attendance;
-  Attendance = (10 / 16) * 100;
+  Attendance = (ClasssesAttended / ClassesHeld) * 100;
   print("the attendance of the student is $Attendance %");
   if (Attendance < 75) {
     print("The student is not allowed to sit in class");
